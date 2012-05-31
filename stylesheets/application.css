@@ -43,11 +43,34 @@ code {
 }
 
 /* line 65 */
+a.download {
+  text-decoration: none;
+  display: block;
+  color: white;
+  margin: 20px auto 0;
+  width: 300px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 20px;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+  text-align: center;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #f38709), color-stop(100%, #c26c07));
+  background-image: -moz-linear-gradient(top, #f38709 0%, #c26c07 100%);
+  background-image: linear-gradient(top, #f38709 0%, #c26c07 100%);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 79 */
 .intro {
   width: 100%;
 }
 
-/* line 68 */
+/* line 82 */
 #body {
   display: -webkit-box;
   display: -moz-box;
@@ -58,7 +81,7 @@ code {
   width: 100%;
 }
 
-/* line 72 */
+/* line 86 */
 #contents {
   display: -webkit-box;
   display: -moz-box;
@@ -83,13 +106,13 @@ code {
   top: -20px;
   z-index: 2;
 }
-/* line 82 */
+/* line 96 */
 #contents h1 {
   color: #3f1e00;
   margin-bottom: 0;
 }
 
-/* line 86 */
+/* line 100 */
 #intro {
   background: rgba(0, 0, 0, 0.1);
   -moz-border-radius: 5px;
@@ -103,27 +126,27 @@ code {
   font-size: 18px;
   line-height: 24px;
 }
-/* line 93 */
+/* line 107 */
 #intro p {
   margin: 0;
 }
-/* line 95 */
+/* line 109 */
 #intro p + p {
   margin-top: 10px;
 }
-/* line 97 */
+/* line 111 */
 #intro strong {
   color: #582a00;
 }
 
-/* line 100 */
+/* line 114 */
 #header {
   z-index: 1;
   margin-bottom: 20px;
   height: 200px;
   overflow: hidden;
 }
-/* line 105 */
+/* line 119 */
 #header h1 {
   font-size: 22px;
   text-align: right;
@@ -131,7 +154,14 @@ code {
   color: #582a00;
 }
 
-/* line 111 */
+/* line 126 */
+#callout img {
+  position: absolute;
+  top: -170px;
+  left: -90px;
+}
+
+/* line 131 */
 #footer {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -150,28 +180,28 @@ code {
   width: 100%;
   margin-top: 25px;
 }
-/* line 120 */
+/* line 140 */
 #footer img:first-child {
   -moz-box-shadow: blue 0 0 5px 0;
   -webkit-box-shadow: blue 0 0 5px 0;
   -o-box-shadow: blue 0 0 5px 0;
   box-shadow: blue 0 0 5px 0;
 }
-/* line 123 */
+/* line 143 */
 #footer img:last-child {
   margin-top: -20px;
   margin-right: -20px;
 }
-/* line 127 */
+/* line 147 */
 #footer .spacer {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
 }
-/* line 130 */
+/* line 150 */
 #footer img {
   display: block;
 }
-/* line 133 */
+/* line 153 */
 #footer #navigation {
   display: -webkit-box;
   display: -moz-box;
@@ -180,25 +210,25 @@ code {
   -webkit-box-align: center;
   -moz-box-align: center;
 }
-/* line 136 */
+/* line 156 */
 #footer #navigation p {
   font-family: Helvetica, sans-serif;
   color: #336666;
   font-size: 16px;
   margin: 0;
 }
-/* line 141 */
+/* line 161 */
 #footer #navigation p a {
   text-decoration: none;
   color: #0e3f54;
 }
 
-/* line 144 */
+/* line 164 */
 .contents {
   width: 725px;
 }
 
-/* line 147 */
+/* line 167 */
 h2 {
   font-size: 20px;
   padding: 5px;
@@ -212,7 +242,7 @@ h2 {
   box-sizing: border-box;
 }
 
-/* line 156 */
+/* line 176 */
 ul.bullet {
   display: -webkit-box;
   display: -moz-box;
@@ -223,19 +253,19 @@ ul.bullet {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
 }
-/* line 160 */
+/* line 180 */
 ul.bullet a {
   margin-left: 0;
   margin-right: 10px;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
 }
-/* line 164 */
+/* line 184 */
 ul.bullet a:last-child {
   margin-right: 0;
 }
 
-/* line 167 */
+/* line 187 */
 .bullet {
   width: 100%;
   padding: 8px 15px;
@@ -250,7 +280,7 @@ ul.bullet a:last-child {
   -webkit-box-align: justify;
   -moz-box-align: justify;
 }
-/* line 173 */
+/* line 193 */
 .bullet .description {
   width: 100%;
   margin-right: 16px;
@@ -258,7 +288,7 @@ ul.bullet a:last-child {
   line-height: 24px;
   margin-bottom: 8px;
 }
-/* line 180 */
+/* line 200 */
 .bullet a {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -278,13 +308,13 @@ ul.bullet a:last-child {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 192 */
+/* line 212 */
 .bullet a:hover {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c26c07), color-stop(100%, #905005));
   background-image: -moz-linear-gradient(top, #c26c07 0%, #905005 100%);
   background-image: linear-gradient(top, #c26c07 0%, #905005 100%);
 }
-/* line 196 */
+/* line 216 */
 .bullet .how {
   display: -webkit-box;
   display: -moz-box;
@@ -296,7 +326,7 @@ ul.bullet a:last-child {
   -moz-box-flex: 1;
   line-height: 24px;
 }
-/* line 200 */
+/* line 220 */
 .bullet .notes {
   font-size: 90%;
   line-height: 150%;
@@ -306,30 +336,30 @@ ul.bullet a:last-child {
   padding-left: 4px;
   color: #582a00;
 }
-/* line 208 */
+/* line 228 */
 .bullet .notes + a {
   margin-top: 10px;
 }
-/* line 210 */
+/* line 230 */
 .bullet .notes + pre {
   margin-top: 10px;
 }
-/* line 212 */
+/* line 232 */
 .bullet .notes + .description {
   margin-top: 20px;
 }
-/* line 215 */
+/* line 235 */
 .bullet pre {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   margin: 0;
 }
-/* line 219 */
+/* line 239 */
 .bullet code {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 222 */
+/* line 242 */
 pre {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -339,35 +369,35 @@ pre {
   border-radius: 5px;
 }
 
-/* line 225 */
+/* line 245 */
 .bullet:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* line 230 */
+/* line 250 */
 .bullet:not(:nth-of-type(1)) {
   padding-top: 15px;
 }
 
-/* line 233 */
+/* line 253 */
 .bullet {
   padding-bottom: 25px;
 }
 
-/* line 238 */
+/* line 258 */
 #credits p {
   text-align: center;
   font-size: 8pt;
   color: #668493;
 }
-/* line 242 */
+/* line 262 */
 #credits p a {
   color: #2c596b;
 }
 
-/* line 246 */
+/* line 266 */
 #github img {
   position: absolute;
   top: 0;
@@ -375,7 +405,14 @@ pre {
   border: 0;
 }
 
-/* line 252 */
+/* line 272 */
+#header-segment {
+  display: inline;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+/* line 277 */
 #versions {
   position: absolute;
   top: 0;
@@ -389,13 +426,13 @@ pre {
   -khtml-border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-/* line 259 */
+/* line 284 */
 #versions a {
   text-decoration: none;
   color: #0e3f54;
   padding: 0.1em 0.25em;
 }
-/* line 262 */
+/* line 287 */
 #versions a.current {
   font-weight: bold;
 }
